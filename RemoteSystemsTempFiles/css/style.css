@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+#logo{
+    margin: 10px 10px 10px -1px;
+    border: 2px darkgrey;
+    border-radius: 50px;
+   
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#banner{
+    margin: -109px 10px 10px 502px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03d1e6;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #03d1e6;
+  }ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #03d1e6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #03d1e6;
+}
+.leftmenu{
+  margin: 22px 10px 10px 1270px;
+  background-attachment: #f900fe;
+}
+li a {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ 
+
