@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function enter(){
+            document.getElementById("first").style.backgroundColor="blue";
+        }
+        function exit(){
+            document.getElementById("first").style.backgroundColor="green";
+        }
+    </script>
+</head>
+<body onfocus="enter()" onblur="exit()" id="first">
+    <h1>First attempt</h1>
+</body>
+</html>
